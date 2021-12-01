@@ -1,14 +1,14 @@
 module.exports = {
   siteMetadata: {
-    title: `Gatsby Starter Blog`,
+    title: `Kabelo's Blog`,
     author: {
-      name: `Kyle Mathews`,
-      summary: `who lives and works in San Francisco building useful things.`,
+      name: `Kabelo Maswanganye`,
+      summary: `who is documenting his journey into tech`,
     },
-    description: `A starter blog demonstrating what Gatsby can do.`,
+    description: `A blog where I talk about my coding lessons`,
     siteUrl: `https://gatsbystarterblogsource.gatsbyjs.io/`,
     social: {
-      twitter: `kylemathews`,
+      twitter: `KabeloM06`,
     },
   },
   plugins: [
@@ -51,6 +51,7 @@ module.exports = {
     },
     `gatsby-transformer-sharp`,
     `gatsby-plugin-sharp`,
+    `gatsby-image`,
     // {
     //   resolve: `gatsby-plugin-google-analytics`,
     //   options: {
@@ -121,7 +122,7 @@ module.exports = {
         // https://css-tricks.com/meta-theme-color-and-trickery/
         // theme_color: `#663399`,
         display: `minimal-ui`,
-        icon: `src/images/gatsby-icon.png`, // This path is relative to the root of the site.
+        icon: `../images/selfie.jpg`, // This path is relative to the root of the site.
       },
     },
     `gatsby-plugin-react-helmet`,
